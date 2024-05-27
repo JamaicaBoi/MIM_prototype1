@@ -1,6 +1,10 @@
 # Medicine Inspection Machine (Software Prototype)
 For this project, the objective is to learn about the components of software used to create a software prototype of Medicine Inspection Machine, such as the GUI and Database. Python will be used as the main programming language for developing this basic software. The application will be developed using PyQt5 and the GUI will be designed using Qt Designer. It includes three main pages: LoginPage, Mainwindow Page, and HistoryPage. The Mainwindow Page also has a sub-page called SelectPresciptionWidget. Each page has its own features that help the user to examine the medication and show the examination history.
 
+
+https://github.com/JamaicaBoi/MIM_prototype1/assets/122667170/912d7823-b259-4818-81cc-a331bd2fb844
+
+
 ## Installation
 ### Necessary library
 The software developed in this project requires the PyQt5, MySQL, and Ultralytics libraries to launch. Use the following command to install these libraries:
