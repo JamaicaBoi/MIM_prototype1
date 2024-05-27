@@ -1,14 +1,8 @@
-from PyQt5.QtCore import QThreadPool, pyqtSignal
-from PyQt5 import QtWidgets,uic,QtGui
+from PyQt5.QtCore import pyqtSignal
+from PyQt5 import QtWidgets,uic
 from PyQt5.QtWidgets import (
-    QFileDialog,
-    QMessageBox,
     QLineEdit
 )
-import pandas as pd
-import os
-import sys
-import datetime
 import mysql.connector
 
 class PageWindow(QtWidgets.QMainWindow):

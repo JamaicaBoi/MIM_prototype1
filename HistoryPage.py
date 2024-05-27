@@ -1,9 +1,8 @@
-from PyQt5.QtCore import Qt, pyqtSignal
+from PyQt5.QtCore import pyqtSignal
 from PyQt5 import QtWidgets,uic,QtGui
 from TableClass import TableModel,Examlist_TableModel
 import pandas as pd
 import mysql.connector
-import base64
 from PIL import Image
 from io import BytesIO
 
@@ -30,7 +29,7 @@ class History_Page(PageWindow):
 
         self.db_cursor = self.connection.cursor()
 
-        uic.loadUi('UI\HistoryPage2.ui', self)
+        uic.loadUi('UI\HistoryPage.ui', self)
         self.setWindowTitle("HistoryPage")
 
         self.DateEdit = self.dateEdit

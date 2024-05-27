@@ -1,11 +1,10 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 from Mainwindow import MainWindow
 from HistoryPage import History_Page
 from LoginPage import Login_Page
 import sys
 import os
 import shutil
-import stat
 
 
 class PageWindow(QtWidgets.QMainWindow):

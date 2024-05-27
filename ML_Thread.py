@@ -18,7 +18,7 @@ class MLThread(QRunnable):
     def __init__(self,Pic = None,*args, **kwargs):
         super(MLThread, self).__init__()
 
-        self.model = YOLO('best.pt')
+        self.model = YOLO('Modelweight.pt')
         
         self.pic = Pic
         self.args = args

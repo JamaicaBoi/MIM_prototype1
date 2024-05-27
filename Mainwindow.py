@@ -38,9 +38,12 @@ class MainWindow(PageWindow):
         self.db_cursor = self.connection.cursor()
 
         #Load the UI Page
-        uic.loadUi('UI/Mainwindow3.ui', self)
+        uic.loadUi('UI/Mainwindow.ui', self)
         os.mkdir("Examinated_Label")
         self.setWindowTitle("MainWindow")
+
+        self.SelectWindow = SelectPresciption_Window()
+        self.SelectWindow.hide()
 
         self.Examtable = self.Exam_prescript_table
 
@@ -103,9 +106,8 @@ class MainWindow(PageWindow):
         self.start_time = time.time()
 
     def Show_SelectPrescription_window(self):
-        self.SelectWindow = SelectPresciption_Window()
-        self.SelectWindow.ID_summit.connect(self.Select_Prescription)
         self.SelectWindow.show()
+        self.SelectWindow.ID_summit.connect(self.Select_Prescription)
 
     def Select_Prescription(self,ID):
         self.Current_ID = ID
@@ -229,6 +231,7 @@ class MainWindow(PageWindow):
         self.connection.commit()
 
     def GotoHistory(self):
+        self.SelectWindow.hide()
         self.goto("History")
     
     def GotoLogin(self):
@@ -238,6 +241,7 @@ class MainWindow(PageWindow):
                 for i in range(len(self.Examtable.model()._data)):
                     self.Examtable.hideRow(i)
 
+            self.SelectWindow.hide()
             self.Exam_img_label.setPixmap(QtGui.QPixmap("Icon\Screenshot 2024-04-08 203400.png"))
             self.Status_label.setText('Select Prescription')
             self.PrescripID_label.clear()

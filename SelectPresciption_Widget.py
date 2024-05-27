@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QVBoxLayout, QWidget
-from PyQt5 import QtWidgets,uic,QtGui,QtCore
+from PyQt5.QtWidgets import QWidget
+from PyQt5 import uic,QtCore
 import mysql.connector
 
 class SelectPresciption_Window(QWidget):

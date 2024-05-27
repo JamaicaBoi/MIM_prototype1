@@ -142,7 +142,7 @@ border-color: rgb(255, 255, 255);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Icon/Screenshot 2024-04-08 203400.png</pixmap>
+       <pixmap>../../First Draft/Icon/Screenshot 2024-04-08 203400.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
