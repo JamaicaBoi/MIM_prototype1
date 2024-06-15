@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import (
     QFileDialog,
     QMessageBox
 )
+from qt_material import apply_stylesheet
 from TableClass import TableModel
 from SelectPresciption_Widget import SelectPresciption_Window
 from ML_Thread import MLThread
@@ -43,11 +44,13 @@ class MainWindow(PageWindow):
         self.setWindowTitle("MainWindow")
 
         self.SelectWindow = SelectPresciption_Window()
+        apply_stylesheet(self.SelectWindow,theme="light_blue.xml",css_file='UI/style.qss')
         self.SelectWindow.hide()
 
         self.Examtable = self.Exam_prescript_table
 
-        self.btn_1 = self.Select_prescript_btn
+        # self.btn_1 = self.Select_prescript_btn
+        self.btn_1 = self.findChild(QtWidgets.QPushButton,"Select_prescript_btn")
         self.btn_1.clicked.connect(self.Show_SelectPrescription_window)
 
         self.btn_2 = self.Upload_btn

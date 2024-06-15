@@ -32,9 +32,6 @@
    </size>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(1, 66, 154);</string>
-   </property>
    <layout class="QGridLayout" name="gridLayout">
     <property name="leftMargin">
      <number>20</number>
@@ -67,9 +64,6 @@
         <weight>75</weight>
         <bold>true</bold>
        </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -110,9 +104,6 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 148, 212);</string>
-      </property>
       <property name="text">
        <string>Examination Page</string>
       </property>
@@ -136,11 +127,8 @@
         <height>150</height>
        </size>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(217, 217, 217);</string>
-      </property>
       <property name="frameShape">
-       <enum>QFrame::Box</enum>
+       <enum>QFrame::StyledPanel</enum>
       </property>
       <property name="lineWidth">
        <number>2</number>
@@ -173,9 +161,6 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
       </property>
@@ -199,11 +184,8 @@
         <height>150</height>
        </size>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(217, 217, 217);</string>
-      </property>
       <property name="frameShape">
-       <enum>QFrame::Box</enum>
+       <enum>QFrame::StyledPanel</enum>
       </property>
       <property name="lineWidth">
        <number>2</number>
@@ -237,9 +219,6 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 148, 212);</string>
-      </property>
       <property name="frameShape">
        <enum>QFrame::Box</enum>
       </property>
@@ -264,9 +243,6 @@
         <width>70</width>
         <height>0</height>
        </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 148, 212);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::Box</enum>
@@ -302,11 +278,8 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(217, 217, 217);</string>
-      </property>
       <property name="frameShape">
-       <enum>QFrame::Box</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <property name="frameShadow">
        <enum>QFrame::Plain</enum>
@@ -354,9 +327,6 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
       </property>
@@ -388,11 +358,8 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(217, 217, 217);</string>
-      </property>
       <property name="frameShape">
-       <enum>QFrame::Box</enum>
+       <enum>QFrame::StyledPanel</enum>
       </property>
       <property name="frameShadow">
        <enum>QFrame::Plain</enum>
@@ -433,9 +400,6 @@
         <width>70</width>
         <height>49</height>
        </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 148, 212);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::Box</enum>
@@ -481,9 +445,6 @@
         <bold>true</bold>
        </font>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="placeholderText">
        <string>Search Prescription ID here</string>
       </property>
@@ -502,9 +463,6 @@
         <weight>75</weight>
         <bold>true</bold>
        </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 148, 212);</string>
       </property>
       <property name="text">
        <string>Search</string>

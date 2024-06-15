@@ -2,6 +2,7 @@ from PyQt5 import QtCore, QtWidgets
 from Mainwindow import MainWindow
 from HistoryPage import History_Page
 from LoginPage import Login_Page
+from qt_material import apply_stylesheet
 import sys
 import os
 import shutil
@@ -21,10 +22,18 @@ class App(QtWidgets.QMainWindow):
         self.setCentralWidget(self.stacked_widget)
 
         self.m_pages = {}
+        
+        login = Login_Page()
+        Main_win = MainWindow()
+        History = History_Page()
 
-        self.register(Login_Page(), "Login")
-        self.register(MainWindow(), "Main")
-        self.register(History_Page(), "History")
+        apply_stylesheet(login,theme="light_blue.xml",css_file='UI/style.qss')
+        apply_stylesheet(Main_win,theme="light_blue.xml",css_file='UI/style.qss')
+        apply_stylesheet(History,theme="light_blue.xml",css_file='UI/style.qss')
+
+        self.register(login, "Login")
+        self.register(Main_win, "Main")
+        self.register(History, "History")
 
         self.goto("Login")
 

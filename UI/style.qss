@@ -1,0 +1,29 @@
+QPushButton{{
+    background-color: {QTMATERIAL_SECONDARYCOLOR};
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: {QTMATERIAL_PRIMARYCOLOR};
+    font: bold 14px;
+    padding: 6px;
+}}
+
+QTableView {{
+    background-color: {QTMATERIAL_SECONDARYCOLOR};
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: {QTMATERIAL_PRIMARYCOLOR};
+    font: bold 14px;
+    padding: 6px;
+}}
+
+QLineEdit {{
+    background-color: {QTMATERIAL_SECONDARYCOLOR};
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: {QTMATERIAL_PRIMARYCOLOR};
+    font: bold 14px;
+    padding: 6px;
+}}

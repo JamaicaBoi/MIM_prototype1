@@ -26,9 +26,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(1, 66, 154);</string>
-   </property>
    <layout class="QGridLayout" name="gridLayout">
     <property name="leftMargin">
      <number>20</number>
@@ -44,9 +41,6 @@
     </property>
     <item row="1" column="1">
      <widget class="QGroupBox" name="groupBox_2">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(217, 217, 217);</string>
-      </property>
       <property name="title">
        <string/>
       </property>
@@ -107,9 +101,6 @@
            <font>
             <pointsize>10</pointsize>
            </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
          </widget>
         </item>
@@ -172,9 +163,6 @@
               <pointsize>10</pointsize>
              </font>
             </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);</string>
-            </property>
            </widget>
           </item>
           <item>
@@ -190,9 +178,6 @@
               <width>50</width>
               <height>49</height>
              </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);</string>
             </property>
             <property name="text">
              <string/>
@@ -261,9 +246,6 @@
               <pointsize>10</pointsize>
              </font>
             </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);</string>
-            </property>
            </widget>
           </item>
           <item>
@@ -279,9 +261,6 @@
               <width>50</width>
               <height>49</height>
              </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);</string>
             </property>
             <property name="text">
              <string/>
@@ -342,9 +321,6 @@
             <pointsize>10</pointsize>
            </font>
           </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
          </widget>
         </item>
         <item>
@@ -367,9 +343,6 @@
             <weight>75</weight>
             <bold>true</bold>
            </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(152, 218, 248);</string>
           </property>
           <property name="text">
            <string>Sign up</string>
@@ -427,9 +400,6 @@
       <property name="toolTipDuration">
        <number>0</number>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(152, 218, 248);</string>
-      </property>
       <property name="text">
        <string>Medicine Inspection Machine</string>
       </property>
@@ -440,9 +410,6 @@
     </item>
     <item row="1" column="0">
      <widget class="QGroupBox" name="groupBox">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(217, 217, 217);</string>
-      </property>
       <property name="title">
        <string/>
       </property>
@@ -510,9 +477,6 @@
             <pointsize>10</pointsize>
            </font>
           </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
          </widget>
         </item>
         <item>
@@ -571,9 +535,6 @@
               <pointsize>10</pointsize>
              </font>
             </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);</string>
-            </property>
            </widget>
           </item>
           <item>
@@ -583,9 +544,6 @@
               <width>50</width>
               <height>49</height>
              </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);</string>
             </property>
             <property name="text">
              <string/>
@@ -624,9 +582,6 @@
             <weight>75</weight>
             <bold>true</bold>
            </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(152, 218, 248);</string>
           </property>
           <property name="text">
            <string>Login</string>
